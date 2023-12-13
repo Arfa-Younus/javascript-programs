@@ -1,0 +1,37 @@
+// let a = 10;
+// let b = 20;
+// let c = -30;
+
+// let plus = a + b;
+// let minus = a - b;
+// let multiply = a * b;
+// let divide = a / b;
+// let exponentation = a**b; 
+// let anotherExponentMethode = Math.pow(a,b);  //Math.pow(base, exponent)
+// let squareRoot = Math.sqrt(a);
+// let anotherSquareRootWay = a**0.5;
+// let remainder = a % b;
+// let percentage = (a/100)*b;
+// let absoluteValue = Math.abs(c);
+// let logarithm = Math.log(a);
+// let logarithmBase10 = Math.log10(a);
+// let logarithmBase2 = Math.log2(a);
+// let maxValue = Math.max(a,b,c);  //(the largest value among a , b and c)
+// let minValue = Math.min(a,b,c);  //(the smallest value among a , b and c)
+
+// console.log("plus : " + plus);
+// console.log("minus : " + minus);
+// console.log("multiply : " + multiply);
+// console.log("divide : " + divide);
+// console.log("exponentation : " + exponentation);
+// console.log("anotherExponentMethode : " + anotherExponentMethode);
+// console.log("squareRoot : " + squareRoot);
+// console.log("anotherSquareRootWay : " + anotherSquareRootWay);
+// console.log("remainder : " + remainder);
+// console.log("percentage : " + percentage);
+// console.log("absoluteValue : " + absoluteValue);
+// console.log("logarithm : " + logarithm);
+// console.log("logarithmBase10 : " + logarithmBase10);
+// console.log("logarithmBase2 : " + logarithmBase2);
+// console.log("maxValue : " + maxValue);
+// console.log("minValue : " + minValue);

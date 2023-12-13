@@ -1,0 +1,115 @@
+// //var Scope 
+// function scopeChecking(){
+//   if(true){
+//     var x = 10;
+//     console.log(x);
+//   }
+//   console.log(x);
+// }
+// scopeChecking();
+
+
+
+
+// //var scope
+// if(true){
+//     var x = 10;
+//     console.log(x);
+//   }
+//   console.log(x);
+
+
+
+
+// // var scope
+// var globalVariable = "i am global";
+// function exampleFunction(){
+// var localVariable ="i am local";
+// console.log(localVariable);
+// console.log(globalVariable);
+// }
+// exampleFunction();
+// console.log(globalVariable);
+// console.log(localVariable); // local variable bahir declare nhi kya jata
+//                             // as an global variable tbhi error aye ga 
+//                             //letVarConst:33 Uncaught ReferenceError: localVariable 
+//                             //is not defined at letVarConst:33:13
+
+
+// //var scope 
+// var a ;
+// function example(){
+//     a = 'If its declared outside any function, it becomes a global variable.';
+//     console.log(a);
+// }
+// example();
+// console.log(a +"yha pr y as an global variable lai ga ku kai bahir var declare hai a ky naam sai");
+
+
+
+// // var hoisting (compilation phase mai javascript var hai tbhi is trha hoisted kr deta hai)
+// //mtlb declare upr lai ata hai
+// function example() {
+//   var a;
+//   console.log(a);
+// var a = 6;
+// console.log(a);
+// }
+// example();
+
+
+
+
+// var redeclaration 
+function varRedeclation(){
+  var x=5;
+  console.log(x)
+  var x =10;
+  console.log(x)
+}
+varRedeclation();
+
+
+// //let Scope 
+// function BlocScope(){
+//     if(true){
+//       let  x = 10;
+//       console.log(x);
+//     }
+//     console.log(x); // error ayega yha ku kai y block scope hy ek curly sai bahir nhi call krskty x ko
+//   }
+//   BlocScope();
+
+
+
+// //let hoisting 
+// function exampleHoist(){
+//   console.log(a);//ReferenceError: Cannot access 'a' before initialization
+//   let a=5;
+// }
+// exampleHoist();
+
+
+
+
+// //const scope
+// function  blockScope(){
+//   if(true){
+//     const pi = 3.14;
+//     console.log(pi)
+//   }
+//   console.log(pi + "const bhi block scope hai curly breaket sai bahir nhi chly ga"); //error aye ga
+// }
+// blockScope();
+
+
+
+
+// //const hoisting
+// function exampleHoist(){
+//   console.log(b);//ReferenceError: Cannot access 'b' before initialization
+//   let a=5;
+// }
+// exampleHoist();
+
+
